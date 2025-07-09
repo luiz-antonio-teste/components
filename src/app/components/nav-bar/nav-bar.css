@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+nav{
+  display: flex;
+  flex-direction: row;    /* opcional, empilha as divs verticalmente */
+  align-items: center;       /* centraliza horizontalmente */
+  background-color: var(--bs-dark);
+  height: 13vh;
+}
+
+.nav-search-bar{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.brand-container{
+  align-self: flex-end;
+}
+
+.navbar-brand {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  height: 13vh;
+  background-color: var(--bs-dark);
+}
+.brand-name{
+  color: black;
+  font-size: 3.8vh;
+  text-underline: none;
+}
+img{
+  width: 12vh;
+  height: 12vh;
+  margin-right: 10px;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+}
+.nav-list,
+  li{
+  margin: 0 10px;
+}
+.nav-list a{
+  text-decoration: none;
+  color: white;
+  font-size: 2.5vh;
+}
+
+.nav-search-bar form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input{
+  width: 40vw;
+  height: 5vh;
+  border-radius: 20px 0 0 20px;
+  border: none;
+}
+.input-group{
+  display: flex;
+  align-items: center;
+}
+.btn{
+  align-self: center;
+  height: 4vh;
+  font-size: 2.5vh;
+  margin-right: 1.5vh;
+}
+.input-group-append{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-radius: 0 20px 20px 0;
+  height: 5vh;
+  width: min-content;
+}
+
+.container-nav-links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: min-content;
+  width: min-content;
+}
+#navbarMenu{
+  font-size: 6vh;
+  color: white;
+  display: none;
+}
+#navbarMenu :hover {
+  cursor: pointer;
+}

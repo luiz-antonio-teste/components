@@ -1,0 +1,28 @@
+.copywriting-container {
+
+  background-color: darkred;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);   /* Grid de 12 colunas */
+  align-items: center;                      /* Centraliza verticalmente */
+  justify-items: center;                    /* Centraliza horizontalmente os itens */
+  min-height: 100vh;                        /* (Opcional) Preenche a altura da tela */
+}
+
+.copywriting-content {
+  grid-column: 4 / span 6;                  /* Faz ocupar 6 colunas, começando na coluna 4 (centraliza) */
+  display: flex;
+  align-items: center;                      /* Alinha conteúdo interno ao centro verticalmente */
+  border: 1px solid #ccc;
+  padding: 24px;
+  border-radius: 10px;
+  background-color: #eee;                 /* Fundo branco para contraste */
+}
+
+.copywriting-image {
+  max-width: 200px;
+  margin-right: 24px;
+}
+
+.copywriting-text {
+  flex: 1;
+}
